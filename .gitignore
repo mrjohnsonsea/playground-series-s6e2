@@ -1,6 +1,17 @@
 # Data Files
 data/*
 !data/README.md
+!data/raw/
+!data/interim/
+!data/processed/
+!data/external/
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+
+# CSV files anywhere
 *.csv
 
 # Python
