@@ -1,0 +1,16 @@
+# Data Files
+data/*
+!data/README.md
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+models/*.joblib
+
+#Environment
+.env
